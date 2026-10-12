@@ -1,5 +1,7 @@
 # Photosnap — React implementation
 
+Live demo: [View site](https://photosnap-multi-page-website-brown.vercel.app) | [GitHub repository](https://github.com/mohliman/photosnap-multi-page-website)
+
 Four responsive pages built with React, TypeScript, Vite, React Router and CSS Modules. Original starter HTML, image assets, SVGs, preview, challenge instructions and gitignore files are preserved. DM Sans is bundled locally through Fontsource; the application does not require a font service at runtime.
 
 ## Run locally
@@ -20,7 +22,7 @@ npm run build
 npm run preview -- --port 5189
 ```
 
-The build checks TypeScript and emits the application, fonts and supplied assets into `dist/`. A production static host must serve `index.html` for application routes (SPA fallback). No backend, API keys or environment variables are required. Nothing is deployed automatically.
+The build checks TypeScript and emits the application, fonts and supplied assets into `dist/`. A production static host must serve `index.html` for application routes (SPA fallback). No backend, API keys or environment variables are required. Vercel is connected to this GitHub repository; pushes to `main` deploy automatically.
 
 ## Implemented behavior
 
